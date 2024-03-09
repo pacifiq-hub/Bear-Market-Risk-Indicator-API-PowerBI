@@ -53,9 +53,11 @@ This how it looks in the backend:
 
 ## ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Conclusions
 
-![image](https://github.com/pacifiq-hub/Bear-Market-Risk-Indicator-API-PowerBI/assets/46910395/25b33aa8-053b-4ddd-b1a4-9415835dd7fb)
+![BMRI through history](https://github.com/pacifiq-hub/Bear-Market-Risk-Indicator-API-PowerBI/assets/46910395/f4eb8d46-38b3-4544-b28e-bdc560fb1049)
 
-I consider this tool to be a fantastic addition to the investor toolkit, providing a higher level of confidence investing when all macro-economical factors are "green". 
+I consider this tool to be a fantastic addition to the investor toolkit, providing a higher level of confidence investing when all macro-economical factors are "green". It tremendously helped guide my investment strategy in the aftermath of the pandemic crisis. 
+
+I will make the Power Pivot available for anyone to download and use, and welcome any suggestions to improve this model
 
 
 ## ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Future research
