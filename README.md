@@ -49,7 +49,7 @@ This is how it looks in the backend:
 **How to read this graph:**
 - The higher the percentile value of the BMRI, the higher the chances of a recession
 - Peter Oppenheimer offered threshold values that separate our graph into 3 areas: Green is safe and healthy to invest, Grey is neutral and Red is risky with a market that comes to saturation.
-- you will notice that the last 4 values of the graph are dotted, and separated from the rest of the graph. This is because the the BEA only provide data on the 6th indicator 2 quarters late, vs. all other indicators are provided on a monthly basis. I decided to still capture a percentile value based on the first 5 indicators, and called it a forecast while waiting for the actual value of the BMRI 
+- you will notice that the last 4 values of the graph are dotted, and separated from the rest of the graph. This is because the BEA only provides data for the 6th indicator 2 quarters late, vs. all other indicators are provided on a monthly basis. I decided to still capture a percentile value based on the first 5 indicators, and labelled it a forecast while waiting for the actual values of the BMRI to be published. 
 
 ## ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Conclusions
 
