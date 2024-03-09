@@ -17,8 +17,12 @@ I'd like to pause here before presenting the sixt and last indicator. So far, we
 
 ## ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) APIs! 
 
-
-
+| Metric  | API Provider | Updates | Other instructions |
+| ------------- | ------------- | ------------- | ------------- |
+| Unemployment rate | US. bureau of labor statistics: https://www.bls.gov/  | https://www.bls.gov/schedule/2020/08_sched.htm | **Series of interest**: LNS14000000 <br> **Series title:**(Seas) Unemployment Rate <br> **Labor force status**: Unemployment rate <br> **To find this serie**: go to https://www.bls.gov/cps/data.htm > Top picks > "" Unemployment Level - LNS14000000"" <br> **Comments**: no need to add registration key, calculations or Annual average"
+| Inflation rate | US. bureau of labor statistics: https://www.bls.gov/  | https://www.bls.gov/schedule/2020/08_sched.htm |**Series of interest**: CUUR0000AA0 <br> **Series title**: CPI for All Urban Consumers (CPI-U) <br> **To find this serie**: go to https://www.bls.gov/cps/data.htm > Top picks > "CPI for All Urban Consumers (CPI-U) 1967=100 (Unadjusted) - CUUR0000AA0" <br> **Comments**: no need to add registration key, calculations or Annual average
+| S&P 500 Shiller PE Ratio  | Quandl (was free until march 2023), Trading Economics or Guru Focus provide it with a subscription fee | Monthly, ~beg. Of the month | **URL**: https://www.quandl.com/data/MULTPL/SHILLER_PE_RATIO_MONTH-Shiller-PE-Ratio-by-Month  <br>  **From the data product**: S&P 500 Ratios <br> **Series title**: Shiller PE Ratio by Month
+| ISM PMI Index  | Quandl (was free until march 2023), Trading Economics or Guru Focus provide it with a subscription fee | Monthly, ~beg. Of the month | **URL**:  https://www.quandl.com/data/ISM/MAN_PMI-PMI-Composite-Index <br>  **From the data product**: Institute for Supply Management <br> **Series title**: PMI Composite Index
 
 ## ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) BMRI
 
