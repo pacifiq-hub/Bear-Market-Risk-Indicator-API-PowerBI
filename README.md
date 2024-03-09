@@ -64,10 +64,7 @@ I made the Power Pivot file available for anyone to download from this repositor
 
 ## ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Future research
 
-The private sector financial balance indicator value lags the other indicators due to the time it takes the BEA to consolidate and publish their GDP reports. I read in some documents that Goldman Sachs uses proxies that approximate the value of this indicator until the actual value is published. It makes their forecast more accurate than mine that removes it entirely until publication. Finding an efficient proxy would be a great addition to this project! 
+The private sector financial balance indicator value lags the other indicators due to the time it takes the BEA to consolidate and publish their GDP reports. Goldman Sachs uses proxies that approximate the value of this indicator until the real value is published. It makes their forecast more accurate than mine. Finding a good proxy to the 6th indicator would be a great addition to this project! 
 
-
-
-for more details on the bibliography, [check the final technical report](https://github.com/pacifiq-hub/Mode-Transportation-Choices-Clustering-Logit/blob/main/technical%20report.pdf).
 
 #  
