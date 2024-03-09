@@ -30,7 +30,7 @@ I'd like to pause here before presenting the sixth and last indicator. So far, w
 
 **Note to the reader after 2023:** It was still possible back in 2020 to find all data for free. Now that NASDAQ and S&P bought many of the smaller data providers, I find it harder to get the data for free. It is still possible to scrap some web pages to get partial historical information, but that won't get the full historical overview of these indicators. Bigger institutions such as the BEA, FED or BLS belonging to the government will continue to provide this data for free, their API are very easy to use and well documented. 
 
-## ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) BMRI
+## ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) BMRI calculation
 
 Once all data is pulled from these different APIs, we create the resulting tables that store the information needed. The data model leading to the calculation of the BRMI is the following:
 
