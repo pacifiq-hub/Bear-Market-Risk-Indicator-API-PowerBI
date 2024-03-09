@@ -28,15 +28,34 @@ I'd like to pause here before presenting the sixt and last indicator. So far, we
 | Saving & Investment | Bureau of Economic Affairs <br> **BEA**: https://apps.bea.gov/ <br> **API documentation PDF**: https://apps.bea.gov/api  | Quaterly, ~last day of next quarter's 1st month | **Check NIPA tables**: https://apps.bea.gov/api/data/?&UserID=C36A268E-C628-4F21-9624-C69BD55C081B&method=GetParameterValues&DataSetName=NIPA&ParameterName=TableName&ResultFormat=xml <br> **Table used**: T50100 <br> **Name of table used**: Saving & investment by sector
 | 6Q Forward interest rate | **Federal Reserve**: https://www.federalreserve.gov/  <br> **Nominal Yield Curve Detail Page**: https://www.federalreserve.gov/data/nominal-yield-curve.htm | https://www.federalreserve.gov/data/yield-curve-tables/feds200628_1.html | **Where to find the data**: https://www.federalreserve.gov/data/nominal-yield-curve.htm <br> **Name of the table**: Nominal Yield Curve <br> The forward 6 Quarter instantaneous rate is calculated with the GSM Rates as detailed by the paper published by the FED: https://www.federalreserve.gov/econres/feds/files/2018055pap.pdf TableName&ResultFormat=xml <br> **Table used**: T50100 <br> **Name of table used**: Saving & investment by sector
 
+**Note to the reader after 2023:** It was still possible back in 2020 to find all data for free. Now that NASDAQ and S&P bought many of the smaller data providers, I find it harder to get the data for free. It is still possible to scrap some web pages to get partial historical information, but that won't get the full historical overview of these indicators. Bigger institutions such as the BEA, FED or BLS belonging to the government will continue to provide this data for free, their API are very easy to use and well documented. 
 
 ## ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) BMRI
 
+Once all data is pulled from these different APIs, we create the resulting tables that store the information needed. The data model of such leading to the calculation of the BRMI is the following:
 
+![image](https://github.com/pacifiq-hub/Bear-Market-Risk-Indicator-API-PowerBI/assets/46910395/48558cb4-d76c-4960-96bb-2a23bbaf689a)
 
+**BMRI calculation**: The last step of our project is to calculate the BMRI. Our data going back to 1961 for the six indicators, we simply calculate the percentile for each indicator all the way back to 1961. We then average out the 6 percentile values to get the BMRI percentile value. 
+
+This how it looks in the backend: 
+
+![image](https://github.com/pacifiq-hub/Bear-Market-Risk-Indicator-API-PowerBI/assets/46910395/7bb163e7-c979-4f4b-9b45-fe452c4f0a87)
+
+**And the final graph:**
+
+![image](https://github.com/pacifiq-hub/Bear-Market-Risk-Indicator-API-PowerBI/assets/46910395/1f3117d5-c837-48e6-a377-d92fbf5f4e8e)
+
+**How to read this graph:**
+- The higher the percentile value of the BMRI, the higher the chances of a recession
+- Peter Oppenheimer offered threshold values that separate our graph into 3 areas: Green is safe and healthy to invest, Grey is neutral and Red is risky with a market that comes to saturation.
+- you will notice that the last 4 values of the graph are dotted, and separated from the rest of the graph. This is because the the BEA only provide data on the 6th indicator 2 quarters late, vs. all other indicators are provided on a monthly basis. I decided to still capture a percentile value based on the first 5 indicators, and called it a forecast while waiting for the actual value of the BMRI 
 
 ## ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Conclusions
 
+![image](https://github.com/pacifiq-hub/Bear-Market-Risk-Indicator-API-PowerBI/assets/46910395/25b33aa8-053b-4ddd-b1a4-9415835dd7fb)
 
+I consider this tool to be a fantastic addition to the investor toolkit, providing a higher level of confidence investing when all macro-economical factors are "green". 
 
 
 ## ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) Future research
