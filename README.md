@@ -57,7 +57,7 @@ This is how it looks in the backend:
 
 I consider this tool to be a fantastic addition to the investor toolkit, providing a higher level of confidence investing when all macro-economical factors are "green". It tremendously helped guide my investment strategy in the aftermath of the pandemic crisis. 
 
-I made the Power Pivot file available for anyone to download from this repository and use, and welcome any suggestions to improve it. You will only need an Microsoft Excel license and the power pivot add-in enabled to refresh the data, and play with the filters. 
+I made the Power Pivot file available for anyone to download from this repository and use, and welcome any suggestions to improve it. You will only need a Microsoft Excel license and the power pivot add-in enabled to refresh the data, and play with the filters. 
 
 **Note to the reader after 2023:** ISM PMI as well as Shiller S&P 500 ratio APIs are not free anymore, and a subcription will be needed to get these. APIs in the power pivot file should be modified to redirect to the new provider. 
 
