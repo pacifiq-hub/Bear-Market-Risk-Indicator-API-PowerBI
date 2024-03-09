@@ -32,7 +32,7 @@ I'd like to pause here before presenting the sixth and last indicator. So far, w
 
 ## ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) BMRI
 
-Once all data is pulled from these different APIs, we create the resulting tables that store the information needed. The data model of such leading to the calculation of the BRMI is the following:
+Once all data is pulled from these different APIs, we create the resulting tables that store the information needed. The data model leading to the calculation of the BRMI is the following:
 
 ![image](https://github.com/pacifiq-hub/Bear-Market-Risk-Indicator-API-PowerBI/assets/46910395/48558cb4-d76c-4960-96bb-2a23bbaf689a)
 
