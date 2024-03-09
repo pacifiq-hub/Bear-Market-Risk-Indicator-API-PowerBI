@@ -38,7 +38,7 @@ Once all data is pulled from these different APIs, we create the resulting table
 
 **BMRI calculation**: The last step of our project is to calculate the BMRI. Our data going back to 1961 for the six indicators, we simply calculate the percentile for each indicator all the way back to 1961. We then average out the 6 percentile values to get the BMRI percentile value. 
 
-This how it looks in the backend: 
+This is how it looks in the backend: 
 
 ![image](https://github.com/pacifiq-hub/Bear-Market-Risk-Indicator-API-PowerBI/assets/46910395/7bb163e7-c979-4f4b-9b45-fe452c4f0a87)
 
