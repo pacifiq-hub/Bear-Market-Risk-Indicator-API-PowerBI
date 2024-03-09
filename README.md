@@ -20,7 +20,7 @@ I'd like to pause here before presenting the sixt and last indicator. So far, we
 
 
 
-## ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) Discrete Choice Model 
+## ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) BMRI
 
 
 
