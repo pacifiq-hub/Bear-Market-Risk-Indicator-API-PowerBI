@@ -1,23 +1,14 @@
 # Bear-Market-Risk-Indicator-PowerBI
 
-It's March 2020, the COVID-19 pandemic strikes the whole world, and we are soon all locked down at home. Good times to find a new hobby, in particular one you can do from your laptop at home! That's how I started developping a strong interest for finance and investment theory. I particularly recomment the writtings of Warren Buffet, Benjamin Graham, Phil Fisher or Peter Lynch that are timeless and so insightful. This project I am covering here though is a reproduction (one may say a copy) of a fascinating indicator, the _Bear Market Risk Indicator_ that [Peter C Oppenheimer](https://www.goldmansachs.com/media-relations/in-the-news/current/oppenheimer-oped-folder/bio-oppenheimer.pdf), Chief Investment Officer at Goldman Sachs, created and detailed in his book [The Long Good Buy](https://www.goodreads.com/en/book/show/49049246). The book is detailed enough that one can find the pieces needed to reconstruct that indicator. As its name indicates, that indicator tracks the risks at one point in time to experience a bear market (i.e., a period of time when stock prices are declining and market sentiment is pessimistic) based on several macro-economical factors such as inflation, private sector financial balance or the yield curve. Power BI is used (actually Power Pivot, which is based on the same language but that is free) to track this indicator and get data from the different APIs.
+It's March 2020, the COVID-19 pandemic strikes the whole world, and we are soon all locked down at home. Good times to find a new hobby, in particular one you can do from your laptop at home! That's how I started developping a strong interest for finance and investment theory. I particularly recomment the writtings of Warren Buffet, Benjamin Graham, Phil Fisher or Peter Lynch that are timeless and so insightful. This project I am covering here though is a reproduction (one may say a copy) of a fascinating indicator, the _Bear Market Risk Indicator_ that [Peter C Oppenheimer](https://www.goldmansachs.com/media-relations/in-the-news/current/oppenheimer-oped-folder/bio-oppenheimer.pdf), Chief Investment Officer at Goldman Sachs, created and detailed in his book [The Long Good Buy](https://www.goodreads.com/en/book/show/49049246). The book is detailed enough that one can find the pieces needed to reconstruct that indicator. As its name indicates, that indicator tracks the risks at one point in time to experience a bear market (i.e., a period of time when stock prices are declining and market sentiment is pessimistic) based on several macro-economical factors such as inflation, private sector financial balance or the yield curve. Power BI is used (actually Power Pivot, which is based on the same technology but that is free with an Excel license) to track this indicator and get data from the different APIs.
 
-## ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) Abstract 
+## ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) Data needed 
 
-The widespread use of smartphones and their ability to collect longitudinal
-data without increasing the burden of the traveler enable better monitoring, understanding
-and analysis of travel behavior. In this thesis, we make as a first attempt a
-mode choice model with smartphone data when data collection is passive. Our research
-consists in identifying and solving arising issues, due to the nature of the data, in order
-to derive a dataset suitable for mode choice analysis. The key components of the
-proposed methodology concern the detection of trips, activities and identification of the
-trip purpose based on smarthphone data, and common issues to mode choice modeling,
-such as the determination of the chosen mode and missing attributes of the unchosen
-alternative, are addressed as well. The derived dataset is further enriched by complementary
-datasets including socio-economic and meteorological information. Estimation
-results are consistent with intuition and relevant works from the literature, showing the
-feasibility and potential of using smartphones for mode choice analysis. A smartphone
-dataset collected in Lausanne is used to illustrate the issues and estimate the model.
+As explained by Peter Oppenheimer in his book, the BMRI ('Bear Market Risk indicator') is calculated out of 6 different metrics:
+1. **Unemployment rate**
+2. **Inflation rate**
+3. **S&P 500 Shiller PE ratio**: this metric was created by [Robert J. Shiller](http://www.econ.yale.edu/~shiller/), professor at the Yale Department of Economics, and provides a sense of the current valuation of the S&P 500. The ratio is a valuation measure that uses real earnings per share (EPS) over a 10-year period to smooth out fluctuations in corporate profits that occur over different periods of a business cycle. Its detractors contend that it is not very useful since it is inherently backward-looking, rather than forward-looking. That leads to our next indicator that balance out this limitation
+4. **The inverted yield curve**: which shows that long-term interest rates are less than short-term interest rates. With an inverted yield curve, the yield decreases the farther away the maturity date is. Sometimes referred to as a negative yield curve, the inverted curve has proven in the past to be a reliable indicator of a recession. Because it is based on investors sentiment, this indicator is qualitative rather than quantitative. 
 
 ## ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) Available data 
 
